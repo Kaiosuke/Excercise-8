@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  font-family: "Asap", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container--profile {
+  background-image: url("https://ircdn.vingroup.net/storage/public/2019/07/DJI_0030-fixed2-mini-20190727T100030844048.jpg");
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgb(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 50vh;
+}
+
+.banner {
+  position: absolute;
+  bottom: -2rem;
+  left: 8rem;
+}
+
+.wrapper-profile {
+  display: flex;
+  gap: 2rem;
+}
+
+.logo img {
+  width: 26rem;
+  border-radius: 0.4rem;
+}
+
+.introduce {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.introduce h1 {
+  font-size: 2.6rem;
+  margin-top: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.introduce--info {
+  display: flex;
+  gap: 4rem;
+}
+
+.introduce--info span {
+  font-size: 2.6rem;
+}
+
+.links {
+  float: right;
+  margin-top: 1.6rem;
+  margin-right: 6rem;
+}
+
+.links ul {
+  display: flex;
+  text-transform: uppercase;
+  gap: 2rem;
+}
+
+.links ul li a {
+  color: #000;
+  font-weight: 600;
+  padding: 2rem 0;
+}
+
+.links ul li:first-child a {
+  color: #bf4240;
+}
+
+.line {
+  margin-top: 1.6rem;
+  border: 2px solid #bf4240;
+  width: 100%;
+}
