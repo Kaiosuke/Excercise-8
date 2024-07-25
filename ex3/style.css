@@ -132,12 +132,6 @@ a {
   transition: 0.2 all ease-in;
 }
 
-.area .wrapper--area a p span {
-  z-index: 2;
-  font-weight: 600;
-  font-size: 1.8rem;
-}
-
 .area .wrapper--area:hover h4,
 .area .wrapper--area:hover p {
   color: rgb(235, 235, 125);
