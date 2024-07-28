@@ -55,7 +55,7 @@ body {
   font-style: normal;
 }
 
-.wrapper button {
+.wrapper span {
   position: absolute;
   font-family: "SFU", sans-serif;
   bottom: -2.6rem;
